@@ -1,8 +1,8 @@
-# TargetMart & HaarpaNeet
+# TargetMart & Haarplaneet
 
 ## About
 
-TargetMart and HaarpaNeet are digital commerce projects focused on creating simple, accessible, and customer-friendly online experiences.
+TargetMart and Haarplaneet are digital commerce projects focused on creating simple, accessible, and customer-friendly online experiences.
 
 ## TargetMart
 
@@ -10,11 +10,11 @@ TargetMart and HaarpaNeet are digital commerce projects focused on creating simp
 
 TargetMart is an online marketplace concept designed to help customers discover products and explore convenient online shopping opportunities.
 
-## HaarpaNeet
+## Haarplaneet
 
-[Visit HaarpaNeet](https://www.haarplaneet.nl/)
+[Visit Haarplaneet](https://www.haarplaneet.nl/)
 
-HaarpaNeet is a complementary digital initiative focused on building an online presence and connecting customers with useful products and services.
+Haarplaneet is a complementary digital initiative focused on building an online presence and connecting customers with useful products and services.
 
 ## Our Vision
 
@@ -23,7 +23,7 @@ Our vision is to build trusted, simple, and customer-focused digital commerce ex
 ## Projects
 
 - [TargetMart](https://www.targetmart.nl/)
-- [HaarpaNeet](https://www.haarplaneet.nl/)
+- [Haarplaneet](https://www.haarplaneet.nl/)
 
 ## Future Plans
 
@@ -38,4 +38,4 @@ For business enquiries, please contact us through our official business channels
 ### Official Websites
 
 - [TargetMart Official Website](https://www.targetmart.nl/)
-- [HaarpaNeet Official Website](https://www.haarplaneet.nl/)
+- [Haarplaneet Official Website](https://www.haarplaneet.nl/)
