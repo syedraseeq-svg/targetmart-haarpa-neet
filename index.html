@@ -1,155 +1,257 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>TargetMart & Haarplaneet</title>
+    <title>TargetMart & Haarplaneet | Nederland</title>
+
+    <meta name="description"
+          content="TargetMart en Haarplaneet – digitale handelsplatformen voor de Nederlandse markt.">
 
     <style>
-        body {
+        * {
+            box-sizing: border-box;
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f5f7fa;
-            color: #222;
+            padding: 0;
         }
 
-        header {
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f6f7f9;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        nav {
+            background: #ffffff;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav span {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        .hero {
             background: #111827;
             color: white;
             text-align: center;
-            padding: 60px 20px;
+            padding: 90px 20px;
         }
 
-        header h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 18px;
         }
 
-        header p {
-            font-size: 18px;
+        .hero p {
+            font-size: 20px;
+            color: #d1d5db;
+            max-width: 700px;
+            margin: auto;
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: auto;
-            padding: 50px 20px;
+            padding: 70px 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .intro h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .intro p {
+            color: #6b7280;
+            max-width: 750px;
+            margin: auto;
         }
 
         .projects {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
             gap: 30px;
-            flex-wrap: wrap;
-            justify-content: center;
         }
 
         .card {
             background: white;
-            padding: 30px;
-            border-radius: 15px;
-            width: 380px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            padding: 40px;
+            border-radius: 18px;
             text-align: center;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.07);
         }
 
-        .card h2 {
-            font-size: 28px;
+        .card h3 {
+            font-size: 30px;
+            margin-bottom: 15px;
         }
 
         .card p {
-            line-height: 1.6;
-            color: #555;
+            color: #6b7280;
+            margin-bottom: 25px;
         }
 
         .button {
             display: inline-block;
-            margin-top: 15px;
-            padding: 12px 25px;
+            padding: 13px 28px;
             background: #111827;
             color: white;
             text-decoration: none;
             border-radius: 8px;
+            font-weight: bold;
         }
 
         .button:hover {
             opacity: 0.85;
         }
 
-        .about {
+        .vision {
             text-align: center;
-            margin-bottom: 50px;
+            margin-top: 70px;
+            padding: 50px 20px;
+            background: white;
+            border-radius: 18px;
+        }
+
+        .vision h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .vision p {
+            color: #6b7280;
+            max-width: 750px;
+            margin: auto;
         }
 
         footer {
             background: #111827;
             color: white;
             text-align: center;
-            padding: 25px;
-            margin-top: 40px;
+            padding: 35px 20px;
+        }
+
+        footer p {
+            color: #d1d5db;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 17px;
+            }
+
+            .projects {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 30px 20px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>TargetMart & Haarplaneet</h1>
-    <p>Digital Commerce Projects</p>
-</header>
+    <nav>
+        <div class="logo">TargetMart & Haarplaneet</div>
+        <span>Nederland</span>
+    </nav>
 
-<div class="container">
-
-    <section class="about">
-        <h2>Welcome</h2>
-
+    <section class="hero">
+        <h1>TargetMart & Haarplaneet</h1>
         <p>
-            TargetMart and Haarplaneet are digital commerce projects
-            focused on creating simple, accessible, and customer-friendly
-            online experiences.
+            Digitale handelsplatformen gericht op een eenvoudige,
+            toegankelijke en klantgerichte online ervaring.
         </p>
     </section>
 
-    <section class="projects">
+    <main class="container">
 
-        <div class="card">
-            <h2>TargetMart</h2>
+        <section class="intro">
+            <h2>Onze projecten</h2>
+            <p>
+                Ontdek onze digitale initiatieven en bezoek de officiële
+                websites van TargetMart en Haarplaneet.
+            </p>
+        </section>
+
+        <section class="projects">
+
+            <div class="card">
+                <h3>TargetMart</h3>
+
+                <p>
+                    Ontdek producten en ervaar eenvoudig en toegankelijk
+                    online winkelen via TargetMart.
+                </p>
+
+                <a
+                    href="https://www.targetmart.nl/"
+                    class="button"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Bezoek TargetMart
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>Haarplaneet</h3>
+
+                <p>
+                    Ontdek Haarplaneet en bekijk ons online aanbod,
+                    producten en diensten.
+                </p>
+
+                <a
+                    href="https://www.haarplaneet.nl/"
+                    class="button"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Bezoek Haarplaneet
+                </a>
+            </div>
+
+        </section>
+
+        <section class="vision">
+            <h2>Onze visie</h2>
 
             <p>
-                Discover products and explore convenient online shopping
-                opportunities with TargetMart.
+                Wij streven naar betrouwbare, eenvoudige en
+                klantgerichte digitale ervaringen voor de Nederlandse markt.
             </p>
+        </section>
 
-            <a
-                href="https://www.targetmart.nl/"
-                class="button"
-                target="_blank">
-                Visit TargetMart
-            </a>
-        </div>
+    </main>
 
-        <div class="card">
-            <h2>Haarplaneet</h2>
-
-            <p>
-                Explore Haarplaneet and discover its online products,
-                services and digital presence.
-            </p>
-
-            <a
-                href="https://www.haarplaneet.nl/"
-                class="button"
-                target="_blank">
-                Visit Haarplaneet
-            </a>
-        </div>
-
-    </section>
-
-</div>
-
-<footer>
-    <p>© 2026 TargetMart & Haarplaneet</p>
-</footer>
+    <footer>
+        <strong>TargetMart & Haarplaneet</strong>
+        <p>Digitale handelsplatformen voor de Nederlandse markt.</p>
+        <p>© 2026 TargetMart & Haarplaneet</p>
+    </footer>
 
 </body>
 </html>
